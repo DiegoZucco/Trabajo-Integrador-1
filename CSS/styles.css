@@ -1,0 +1,76 @@
+
+.carousel-caption{
+   bottom: 5%;
+    text-shadow: 2px 1px 2px black;
+   
+    text-align: right;
+    
+     
+ }
+ 
+ .textonavbar{
+     font-size: 12px;
+ }
+ 
+ @media(max-width:420px){
+
+    .carousel-caption h5 {font-size: 9px;
+ }
+}
+ 
+
+
+ @media(max-width:420px){
+
+    .carousel-caption p{font-size: 9px;
+ }
+}
+ 
+ @media(max-width:576px) {
+     .carousel-caption {
+         font-size: 12px; text-align: end;
+        
+     }
+ }
+ 
+ @media(max-width:576px) {
+     .carousel-caption h5 {
+         font-size: 12px; text-align: end;
+        
+         
+         
+     }
+ }
+ 
+ .imagencarru {
+     filter: brightness(50%);
+ 
+ }
+ 
+ .btn3 {
+     background-color: green;
+     width: 50%;
+ }
+ 
+ .navbar2 {
+     background-color: rgb(142, 109, 173);
+ }
+ 
+ .boton1 {
+     background: none;
+     border: solid 1px white;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     border-radius: 10px;
+     
+ 
+ }
+ 
+ .boton2 {
+     background-color: green;
+     border: solid 1px white;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     border-radius: 10px;
+ 
+ }
