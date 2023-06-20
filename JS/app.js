@@ -30,7 +30,9 @@ form.addEventListener("submit", e => {
     console.log("entrada invalida");
 console.log(cantidadApagar.value);
 
-form.submit()
+/*form.submit()*/
+ //se comenta el form.submit()para que se pueda ver el resultado sin que actualice//
+//el formulario//
 });
     
         function totalApagar(precioticket, porcentaje, cantidad) {
