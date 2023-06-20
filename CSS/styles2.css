@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0%;
+    padding: 0%;
+}  
+.navbar2{
+    background-color: rgb(46, 11, 80);
+}
+
+
+.cards {
+    display:flex ;
+    gap:15px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card1 {
+    background-color: rgb(224, 220, 215);
+    border: 2px solid rgb(40, 6, 161);
+    text-align: center;
+    box-shadow: 0px 1px 10px;
+    justify-items: center;
+}
+
+
+
+.card2 {
+    background-color: rgb(224, 220, 215);
+    border: 2px solid rgb(65, 59, 59);
+    text-align: center;
+    justify-items: center;
+    box-shadow: 0px 1px 10px;
+
+}
+
+.card3 {
+    background-color: rgb(224, 220, 215);
+    border: 2px solid rgb(231, 227, 4);
+    text-align: center;
+    box-shadow: 0px 1px 10px;
+justify-items: center;
+}
+
+.p1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    flex-wrap: wrap;
+    text-shadow: 0px 1px 1px;
+}
+
+.form1 {
+    display: grid;
+    grid-template-columns: 30% 30%;
+
+    grid-template-areas:
+        "a b"
+        "c c"
+        "d f"
+        "e g"
+        "h h"
+        "i j";
+
+    gap: 15px 15px;
+    justify-content: center;
+
+
+}
+
+
+#nombre {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    grid-area: a;
+    border-radius: 8px;
+    border: solid gray 1px;
+}
+
+#apellido {
+    width: 100%;
+    font-size: 16px;
+    grid-area: b;
+    height: 50px;
+    border-radius: 8px;
+    border: solid gray 1px;
+}
+
+#email {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    grid-area: c;
+    border-radius: 8px;
+    border: solid gray 1px;
+
+}
+
+#labelcantidad {
+    grid-area: d;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+#cantidad {
+    height: 45px;
+    font-size: 16px;
+    width: 100%;
+    grid-area: e;
+    border-radius: 8px;
+    border: solid gray 1px;
+}
+
+#labelcategoria {
+    grid-area: f;
+
+    width: 100%;
+    font-size: 20px;
+}
+
+#Categoria {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    grid-area: g;
+    border-radius: 8px;
+    border: solid gray 1px;
+
+}
+
+#cantidadApagar {
+    color: black;
+    grid-area: h;
+    width: 99%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(161, 243, 243);
+    border: solid gray 1px;
+}
+
+#btnborrar {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    grid-area: i;
+    border-radius: 8px;
+    background-color: rgb(25, 245, 25);
+    color: white;
+    text-shadow: -1px 6px 7px rgba(26, 22, 22, 0.83);
+    border: none;
+}
+
+#btnresumen {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    grid-area: j;
+    border-radius: 8px;
+    background-color: rgb(25, 245, 25);
+    color: white;
+    text-shadow: -1px 6px 7px rgba(26, 22, 22, 0.83);
+    border: none;
+}
